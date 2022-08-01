@@ -1,0 +1,119 @@
+body {
+  font-family: "poppins", sans-serif;
+}
+
+.my-nav {
+  background: #222;
+}
+
+.my-nav a {
+  color: #fff;
+}
+
+.my-nav a:focus {
+  color: #fff;
+}
+
+.btn-cart {
+  background: #c3073f;
+}
+
+.btn-cart:hover {
+  background: #fff;
+}
+
+.my-nav ul {
+  list-style: none;
+}
+
+.my-nav ul a {
+  color: #fff;
+}
+
+.my-nav ul a:hover {
+  color: #c3073f;
+}
+
+.main-section {
+  background-color: #fff;
+}
+
+.my-card {
+  background: #fff;
+  height: 28em;
+  border: 1px solid #e0c3fc;
+  transition: 0.3s;
+}
+
+.mydiv {
+  height: 15rem;
+  width: 100%;
+}
+
+.img-div {
+  height: 15rem;
+}
+
+.my-card:hover {
+  margin-top: -5px;
+}
+
+.my-card-img {
+  border: none;
+  max-height: 100%;
+}
+
+.my-card h5,
+p {
+  color: #000000;
+}
+
+.my-button {
+  background-color: #c3073f;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.my-button:hover {
+  background: none;
+  color: #000;
+  border: 1px solid #c3073f;
+}
+
+/* Cart page styling */
+
+.my-cart {
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+}
+
+.my-cart p {
+  color: #000;
+}
+
+.my-cart button {
+  text-decoration: none;
+}
+
+.grand-total {
+  text-decoration: none;
+  color: #000;
+  font-size: 2em;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Media queries */
+
+@media (max-width: 992px) and (min-width: 576px) {
+  .my-cart p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 340px) {
+  .my-card h5 {
+    font-size: 15px;
+  }
+}
